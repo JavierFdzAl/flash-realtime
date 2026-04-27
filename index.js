@@ -12,8 +12,8 @@ const {
   GEMINI_MODEL = 'models/gemini-3.1-flash-live-preview',
   PORT = 8080,
 
-  TWILIO_ACCOUNT_SID = 'ACee4ed4a30aef7bdebad8bc53b65c1417',
-  TWILIO_AUTH_TOKEN = '37c2ba41a053d1e1bb631f928d480f2c',
+  TWILIO_ACCOUNT_SID,
+  TWILIO_AUTH_TOKEN,
 
   // Host público (https://tu-dominio) para callbacks
   PUBLIC_HOST = 'https://doobot-realtime-boston-712406184291.europe-west1.run.app',
