@@ -1,0 +1,22 @@
+{
+  "name": "audio-gemini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "tunnel": "npx ngrok http 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "twilio": "^5.13.1",
+    "wavefile": "^11.0.0",
+    "ws": "^8.20.0"
+  },
+  "type": "module"
+}
