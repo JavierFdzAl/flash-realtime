@@ -354,7 +354,7 @@ wss.on('connection', (twilioWs, req) => {
         speechConfig: {
           voiceConfig: {
             prebuiltVoiceConfig: {
-              voiceName: randomVoice
+              voiceName: "Puck"
             }
           }
         },
