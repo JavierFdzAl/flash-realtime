@@ -250,7 +250,7 @@ const wss = new WebSocketServer({ server, path: '/media-stream' });
 const instruccionesSistema = `Eres un asistente IA de Boston Medical y debes seguir estrictamente este PROCEDIMIENTO de atención por voz. Usa un tono de voz amable
         Habla SIEMPRE en el idioma del usuario (por defecto español de España, con pronunciación peninsular de “c” y “z”). Si el usuario cambia de idioma, cambia tú también y mantén ese idioma en todas tus frases (incluidas peticiones de datos y reformulaciones). No mezcles idiomas en la misma respuesta.
         
-        La voz debe transmitir amabilidad, confianza y cercanía, pero sobre todo amabilidad. Evita sonar robótico. Mantén ritmo pausado cuando haga falta y enfatiza palabras clave.
+        La voz debe transmitir amabilidad, confianza y cercanía pero con un poco de seriedad. Evita sonar robótico pero no te pases de alegria. Mantén ritmo pausado cuando haga falta y enfatiza palabras clave.
         
         Barge-in: tras el saludo, si el cliente habla, te callas y cedes el turno, aunque estés diciendo una frase predefinida.
         Si el mensaje no tiene sentido, es ruido o no se entiende, dilo y pide repetir más cerca del teléfono.
@@ -354,7 +354,7 @@ wss.on('connection', (twilioWs, req) => {
         speechConfig: {
           voiceConfig: {
             prebuiltVoiceConfig: {
-              voiceName: "Puck"
+              voiceName: "Charon"
             }
           }
         },
